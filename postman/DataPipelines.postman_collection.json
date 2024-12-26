@@ -1,0 +1,245 @@
+{
+	"info": {
+		"_postman_id": "1369d617-924b-4ec9-9bc4-c47d55d372f6",
+		"name": "DataPipelines",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "294142",
+		"_collection_link": "https://lively-spaceship-6330.postman.co/workspace/My-Workspace~e6a0250e-e55f-45a3-86cf-e87c0004dcb3/collection/294142-1369d617-924b-4ec9-9bc4-c47d55d372f6?action=share&source=collection_link&creator=294142"
+	},
+	"item": [
+		{
+			"name": "stops",
+			"item": [
+				{
+					"name": "all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/stops?page=1&per_page=50",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"stops"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "per_page",
+									"value": "50"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get-by-id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/stops/fa077f",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"stops",
+								"fa077f"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "services",
+			"item": [
+				{
+					"name": "get-service-current-date",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/services?page=1",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"services"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get-by-current-day",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/services/day",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"services",
+								"day"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get-by-day",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/services/day/monday",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"services",
+								"day",
+								"monday"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get-locations-by-service-id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/services/fc73eb8fc73e9/locations",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"services",
+								"fc73eb8fc73e9",
+								"locations"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "town-halls",
+			"item": [
+				{
+					"name": "all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/town-halls?per_page=30",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"town-halls"
+							],
+							"query": [
+								{
+									"key": "per_page",
+									"value": "30"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "stops-by-town-hall",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/town-halls/stops/benito-juarez?page=1",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"town-halls",
+								"stops",
+								"benito-juarez"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "health-check",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/health-check",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"health-check"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "validation",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"usuario\":\"{{username}}\",\n    \"senha\":\"{{password}}\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://metrobus-gtfs.sinopticoplus.com/gtfs-api/partnerValidation",
+					"protocol": "https",
+					"host": [
+						"metrobus-gtfs",
+						"sinopticoplus",
+						"com"
+					],
+					"path": [
+						"gtfs-api",
+						"partnerValidation"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,42 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: dp_app
+    working_dir: /usr/src/app
+    volumes:
+      - .:/usr/src/app
+    ports:
+      - '5001:5000'
+    depends_on:
+      - database
+    environment:
+      DATABASE_HOST: database
+      DATABASE_NAME: public
+      DATABASE_DATABASE: postgres
+      DATABASE_PASSWORD: postgres
+      DATABASE_USERNAME: postgres
+      DATABASE_PORT: 5432
+    command: >
+      sh -c "
+      flask --app src.app db migrate || true &&
+      flask --app src.app db upgrade &&
+      flask --app src.app run --host=0.0.0.0
+      "
+
+  database:
+    image: postgres:15
+    container_name: dp_postgres
+    restart: always
+    ports:
+      - '5432:5432'
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
