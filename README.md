@@ -1,5 +1,4 @@
 # Data Pipelines
-
 Este repositorio contiene scripts para gestionar, desplegar y limpiar el entorno del backend utilizando Docker y AWS. A continuación, se describen los comandos disponibles y sus funcionalidades.
 
 ## Correr en local
