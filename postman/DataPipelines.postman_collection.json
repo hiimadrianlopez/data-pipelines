@@ -35,7 +35,167 @@
 							]
 						}
 					},
-					"response": []
+					"response": [
+						{
+							"name": "200",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/stops?page=1&per_page=50",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"stops"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "1"
+										},
+										{
+											"key": "per_page",
+											"value": "50"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Werkzeug/3.1.3 Python/3.11.11"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 02 Jan 2025 11:28:15 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "7420"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": [\n        {\n            \"detail\": \"/stops/fa077f\",\n            \"id\": \"fa077f\",\n            \"lat\": 19.47660808499176,\n            \"lon\": -99.13265208566766,\n            \"name\": \"Potrero\",\n            \"town_hall\": \"Gustavo A. Madero\"\n        },\n        {\n            \"detail\": \"/stops/fa0781\",\n            \"id\": \"fa0781\",\n            \"lat\": 19.46262217936452,\n            \"lon\": -99.14386723712764,\n            \"name\": \"Circuito L1\",\n            \"town_hall\": \"Cuauhtémoc\"\n        },\n        {\n            \"detail\": \"/stops/fa0782\",\n            \"id\": \"fa0782\",\n            \"lat\": 19.45951903848959,\n            \"lon\": -99.14643816862964,\n            \"name\": \"San Simón\",\n            \"town_hall\": \"Cuauhtémoc\"\n        },\n        {\n            \"detail\": \"/stops/fa0783\",\n            \"id\": \"fa0783\",\n            \"lat\": 19.456615046343,\n            \"lon\": -99.14948159428556,\n            \"name\": \"Manuel González\",\n            \"town_hall\": \"Cuauhtémoc\"\n        },\n        {\n            \"detail\": \"/stops/fa0784\",\n            \"id\": \"fa0784\",\n            \"lat\": 19.44691022319351,\n            \"lon\": -99.15307779648693,\n            \"name\": \"Buenavista L1\",\n            \"town_hall\": \"Cuauhtémoc\"\n        },\n        {\n            \"detail\": \"/stops/fa0785\",\n            \"id\": \"fa0785\",\n            \"lat\": 19.44349969896119,\n            \"lon\": -99.15434496585382,\n            \"name\": \"El Chopo\",\n            \"town_hall\": \"Cuauhtémoc\"\n        },\n        {\n            \"detail\": \"/stops/fa0786\",\n            \"id\": \"fa0786\",\n            \"lat\": 19.44038555031536,\n            \"lon\": -99.15537707771638,\n            \"name\": \"Revolución\",\n            \"town_hall\": \"Cuauhtémoc\"\n        },\n        {\n            \"detail\": \"/stops/fa0787\",\n            \"id\": \"fa0787\",\n            \"lat\": 19.43597072042957,\n            \"lon\": -99.15739044966492,\n            \"name\": \"Plaza de la República L1\",\n            \"town_hall\": \"Cuauhtémoc\"\n        },\n        {\n            \"detail\": \"/stops/fa0788\",\n            \"id\": \"fa0788\",\n            \"lat\": 19.43279916313105,\n            \"lon\": -99.15879315610292,\n            \"name\": \"Reforma L1\",\n            \"town_hall\": \"Cuauhtémoc\"\n        },\n        {\n            \"detail\": \"/stops/fa0789\",\n            \"id\": \"fa0789\",\n            \"lat\": 19.42783415435309,\n            \"lon\": -99.16106475746771,\n            \"name\": \"Hamburgo L1\",\n            \"town_hall\": \"Cuauhtémoc\"\n        },\n        {\n            \"detail\": \"/stops/fa078a\",\n            \"id\": \"fa078a\",\n            \"lat\": 19.42410906772833,\n            \"lon\": -99.16333142064484,\n            \"name\": \"Insurgentes Pte\",\n            \"town_hall\": \"Cuauhtémoc\"\n        },\n        {\n            \"detail\": \"/stops/fa078b\",\n            \"id\": \"fa078b\",\n            \"lat\": 19.42337240356835,\n            \"lon\": -99.16248154356876,\n            \"name\": \"Insurgentes Ote\",\n            \"town_hall\": \"Cuauhtémoc\"\n        },\n        {\n            \"detail\": \"/stops/fa078c\",\n            \"id\": \"fa078c\",\n            \"lat\": 19.41997622456321,\n            \"lon\": -99.16401286952052,\n            \"name\": \"Durango\",\n            \"town_hall\": \"Cuauhtémoc\"\n        },\n        {\n            \"detail\": \"/stops/fa078d\",\n            \"id\": \"fa078d\",\n            \"lat\": 19.41653448382856,\n            \"lon\": -99.16509146537012,\n            \"name\": \"Álvaro Obregón\",\n            \"town_hall\": \"Cuauhtémoc\"\n        },\n        {\n            \"detail\": \"/stops/fa078e\",\n            \"id\": \"fa078e\",\n            \"lat\": 19.41341136250927,\n            \"lon\": -99.166103698841,\n            \"name\": \"Sonora\",\n            \"town_hall\": \"Cuauhtémoc\"\n        },\n        {\n            \"detail\": \"/stops/fa078f\",\n            \"id\": \"fa078f\",\n            \"lat\": 19.409778514779635,\n            \"lon\": -99.16727274656296,\n            \"name\": \"Campeche\",\n            \"town_hall\": \"Cuauhtémoc\"\n        },\n        {\n            \"detail\": \"/stops/fa0790\",\n            \"id\": \"fa0790\",\n            \"lat\": 19.40668064654693,\n            \"lon\": -99.16823652746277,\n            \"name\": \"Chilpancingo\",\n            \"town_hall\": \"Cuauhtémoc\"\n        },\n        {\n            \"detail\": \"/stops/fa0791\",\n            \"id\": \"fa0791\",\n            \"lat\": 19.27940039461813,\n            \"lon\": -99.16906731453444,\n            \"name\": \"El Caminero\",\n            \"town_hall\": \"Tlalpan\"\n        },\n        {\n            \"detail\": \"/stops/fa0792\",\n            \"id\": \"fa0792\",\n            \"lat\": 19.40204269480295,\n            \"lon\": -99.16975234012804,\n            \"name\": \"Nuevo León L1\",\n            \"town_hall\": \"Cuauhtémoc\"\n        },\n        {\n            \"detail\": \"/stops/fa0793\",\n            \"id\": \"fa0793\",\n            \"lat\": 19.28035536452082,\n            \"lon\": -99.1700111751622,\n            \"name\": \"La Joya\",\n            \"town_hall\": \"Tlalpan\"\n        },\n        {\n            \"detail\": \"/stops/fa0794\",\n            \"id\": \"fa0794\",\n            \"lat\": 19.39776384658177,\n            \"lon\": -99.1711536312679,\n            \"name\": \"La Piedad\",\n            \"town_hall\": \"Benito Juárez\"\n        },\n        {\n            \"detail\": \"/stops/fa0795\",\n            \"id\": \"fa0795\",\n            \"lat\": 19.39321394751125,\n            \"lon\": -99.172701367973,\n            \"name\": \"Polifórum\",\n            \"town_hall\": \"Benito Juárez\"\n        },\n        {\n            \"detail\": \"/stops/fa0796\",\n            \"id\": \"fa0796\",\n            \"lat\": 19.3896222909298,\n            \"lon\": -99.1737990029131,\n            \"name\": \"Nápoles\",\n            \"town_hall\": \"Benito Juárez\"\n        },\n        {\n            \"detail\": \"/stops/fa0797\",\n            \"id\": \"fa0797\",\n            \"lat\": 19.288058811090515,\n            \"lon\": -99.17459785938264,\n            \"name\": \"Fuentes Brotantes\",\n            \"town_hall\": \"Tlalpan\"\n        },\n        {\n            \"detail\": \"/stops/fa0798\",\n            \"id\": \"fa0798\",\n            \"lat\": 19.38571354863733,\n            \"lon\": -99.17506613534312,\n            \"name\": \"Colonia del Valle\",\n            \"town_hall\": \"Benito Juárez\"\n        },\n        {\n            \"detail\": \"/stops/fa0799\",\n            \"id\": \"fa0799\",\n            \"lat\": 19.2833661880905,\n            \"lon\": -99.17534005596502,\n            \"name\": \"Santa Úrsula\",\n            \"town_hall\": \"Tlalpan\"\n        },\n        {\n            \"detail\": \"/stops/fa079a\",\n            \"id\": \"fa079a\",\n            \"lat\": 19.38231253098864,\n            \"lon\": -99.17616458743342,\n            \"name\": \"Ciudad de los Deportes\",\n            \"town_hall\": \"Benito Juárez\"\n        },\n        {\n            \"detail\": \"/stops/fa079b\",\n            \"id\": \"fa079b\",\n            \"lat\": 19.37946791221312,\n            \"lon\": -99.17708587836776,\n            \"name\": \"Parque Hundido\",\n            \"town_hall\": \"Benito Juárez\"\n        },\n        {\n            \"detail\": \"/stops/fa079c\",\n            \"id\": \"fa079c\",\n            \"lat\": 19.29264531575584,\n            \"lon\": -99.17763856633142,\n            \"name\": \"Ayuntamiento\",\n            \"town_hall\": \"Tlalpan\"\n        },\n        {\n            \"detail\": \"/stops/fa079d\",\n            \"id\": \"fa079d\",\n            \"lat\": 19.37417510761703,\n            \"lon\": -99.17880853652244,\n            \"name\": \"Félix Cuevas Norte\",\n            \"town_hall\": \"Benito Juárez\"\n        },\n        {\n            \"detail\": \"/stops/fa079e\",\n            \"id\": \"fa079e\",\n            \"lat\": 19.3689094354125,\n            \"lon\": -99.18051144595016,\n            \"name\": \"Río Churubusco\",\n            \"town_hall\": \"Benito Juárez\"\n        },\n        {\n            \"detail\": \"/stops/fa079f\",\n            \"id\": \"fa079f\",\n            \"lat\": 19.29410519454726,\n            \"lon\": -99.1811098140218,\n            \"name\": \"Corregidora\",\n            \"town_hall\": \"Tlalpan\"\n        },\n        {\n            \"detail\": \"/stops/fa07a0\",\n            \"id\": \"fa07a0\",\n            \"lat\": 19.36490532773127,\n            \"lon\": -99.18180902259564,\n            \"name\": \"Teatro de los Insurgentes\",\n            \"town_hall\": \"Benito Juárez\"\n        },\n        {\n            \"detail\": \"/stops/fa07a1\",\n            \"id\": \"fa07a1\",\n            \"lat\": 19.36176208219084,\n            \"lon\": -99.18289663563068,\n            \"name\": \"José María Velasco\",\n            \"town_hall\": \"Álvaro Obregón\"\n        },\n        {\n            \"detail\": \"/stops/fa07a2\",\n            \"id\": \"fa07a2\",\n            \"lat\": 19.35830456967379,\n            \"lon\": -99.18395139276464,\n            \"name\": \"Francia\",\n            \"town_hall\": \"Álvaro Obregón\"\n        },\n        {\n            \"detail\": \"/stops/fa07a3\",\n            \"id\": \"fa07a3\",\n            \"lat\": 19.35464537755246,\n            \"lon\": -99.18513616213698,\n            \"name\": \"Olivo\",\n            \"town_hall\": \"Álvaro Obregón\"\n        },\n        {\n            \"detail\": \"/stops/fa07a4\",\n            \"id\": \"fa07a4\",\n            \"lat\": 19.29914752169245,\n            \"lon\": -99.18548736821604,\n            \"name\": \"Villa Olímpica\",\n            \"town_hall\": \"Tlalpan\"\n        },\n        {\n            \"detail\": \"/stops/fa07a5\",\n            \"id\": \"fa07a5\",\n            \"lat\": 19.30415178639366,\n            \"lon\": -99.18610776319284,\n            \"name\": \"Perisur\",\n            \"town_hall\": \"Coyoacán\"\n        },\n        {\n            \"detail\": \"/stops/fa07a6\",\n            \"id\": \"fa07a6\",\n            \"lat\": 19.35077189255606,\n            \"lon\": -99.18638186734992,\n            \"name\": \"Altavista\",\n            \"town_hall\": \"Álvaro Obregón\"\n        },\n        {\n            \"detail\": \"/stops/fa07a8\",\n            \"id\": \"fa07a8\",\n            \"lat\": 19.34689513084349,\n            \"lon\": -99.1877655336048,\n            \"name\": \"La Bombilla\",\n            \"town_hall\": \"Álvaro Obregón\"\n        },\n        {\n            \"detail\": \"/stops/fa07aa\",\n            \"id\": \"fa07aa\",\n            \"lat\": 19.48644922699015,\n            \"lon\": -99.1245180831272,\n            \"name\": \"Dep. 18 Mzo. L1\",\n            \"town_hall\": \"Gustavo A. Madero\"\n        },\n        {\n            \"detail\": \"/stops/fa07ab\",\n            \"id\": \"fa07ab\",\n            \"lat\": 19.48266224994973,\n            \"lon\": -99.12762383746852,\n            \"name\": \"Euzkaro\",\n            \"town_hall\": \"Gustavo A. Madero\"\n        },\n        {\n            \"detail\": \"/stops/fa07ac\",\n            \"id\": \"fa07ac\",\n            \"lat\": 19.32290957807005,\n            \"lon\": -99.18853534896722,\n            \"name\": \"Ciudad Universitaria\",\n            \"town_hall\": \"Coyoacán\"\n        },\n        {\n            \"detail\": \"/stops/fa07ad\",\n            \"id\": \"fa07ad\",\n            \"lat\": 19.341042854223957,\n            \"lon\": -99.18992400169374,\n            \"name\": \"Dr. Gálvez N\",\n            \"town_hall\": \"Álvaro Obregón\"\n        },\n        {\n            \"detail\": \"/stops/f85743\",\n            \"id\": \"f85743\",\n            \"lat\": 19.42995356797701,\n            \"lon\": -99.16159558715808,\n            \"name\": \"Hamburgo L7\",\n            \"town_hall\": \"Cuauhtémoc\"\n        },\n        {\n            \"detail\": \"/stops/f85744\",\n            \"id\": \"f85744\",\n            \"lat\": 19.382831721916528,\n            \"lon\": -99.11095976829527,\n            \"name\": \"Canal Apatlaco\",\n            \"town_hall\": \"Iztacalco\"\n        },\n        {\n            \"detail\": \"/stops/f85745\",\n            \"id\": \"f85745\",\n            \"lat\": 19.430103956320657,\n            \"lon\": -99.13943117569188,\n            \"name\": \"El Salvador.\",\n            \"town_hall\": \"Cuauhtémoc\"\n        },\n        {\n            \"detail\": \"/stops/f85746\",\n            \"id\": \"f85746\",\n            \"lat\": 19.4247146195983,\n            \"lon\": -99.18433425390693,\n            \"name\": \"Antropología\",\n            \"town_hall\": \"Miguel Hidalgo\"\n        },\n        {\n            \"detail\": \"/stops/f85747\",\n            \"id\": \"f85747\",\n            \"lat\": 19.40571073731026,\n            \"lon\": -99.11357273352768,\n            \"name\": \"Hospital General Troncoso\",\n            \"town_hall\": \"Iztacalco\"\n        },\n        {\n            \"detail\": \"/stops/f85748\",\n            \"id\": \"f85748\",\n            \"lat\": 19.45776866628389,\n            \"lon\": -99.12894501191792,\n            \"name\": \"Mercado Beethoven.\",\n            \"town_hall\": \"Cuauhtémoc\"\n        }\n    ],\n    \"pagination\": {\n        \"current_page\": 1,\n        \"has_next\": true,\n        \"has_prev\": false,\n        \"next_page\": 2,\n        \"per_page\": 50,\n        \"prev_page\": null,\n        \"total_items\": 372,\n        \"total_pages\": 8\n    },\n    \"timestamp\": \"2025-01-02T11:28:15.594157+00:00\"\n}"
+						},
+						{
+							"name": "404",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/stops?page=100&per_page=50",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"stops"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "100"
+										},
+										{
+											"key": "per_page",
+											"value": "50"
+										}
+									]
+								}
+							},
+							"status": "NOT FOUND",
+							"code": 404,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Werkzeug/3.1.3 Python/3.11.11"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 02 Jan 2025 11:28:28 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "78"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Items not found!\",\n    \"timestamp\": \"2025-01-02T11:28:28.755829+00:00\"\n}"
+						},
+						{
+							"name": "500",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/stops?page=1&per_page=50",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"stops"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "1"
+										},
+										{
+											"key": "per_page",
+											"value": "50"
+										}
+									]
+								}
+							},
+							"status": "INTERNAL SERVER ERROR",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Werkzeug/3.1.3 Python/3.11.11"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 02 Jan 2025 11:31:06 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "216"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.\",\n    \"timestamp\": \"2025-01-02T11:31:06.564105+00:00\"\n}"
+						}
+					]
 				},
 				{
 					"name": "get-by-id",
@@ -53,7 +213,140 @@
 							]
 						}
 					},
-					"response": []
+					"response": [
+						{
+							"name": "200",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/stops/fa077f",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"stops",
+										"fa077f"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Werkzeug/3.1.3 Python/3.11.11"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 02 Jan 2025 11:31:32 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "161"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": \"fa077f\",\n    \"lat\": 19.47660808499176,\n    \"lon\": -99.13265208566766,\n    \"name\": \"Potrero\",\n    \"timestamp\": \"2025-01-02T11:31:32.725486+00:00\",\n    \"town_hall\": \"Gustavo A. Madero\"\n}"
+						},
+						{
+							"name": "404",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/stops/fa077f1",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"stops",
+										"fa077f1"
+									]
+								}
+							},
+							"status": "NOT FOUND",
+							"code": 404,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Werkzeug/3.1.3 Python/3.11.11"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 02 Jan 2025 11:31:40 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "76"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Row not found!\",\n    \"timestamp\": \"2025-01-02T11:31:40.064419+00:00\"\n}"
+						},
+						{
+							"name": "500",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/stops/",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"stops",
+										""
+									]
+								}
+							},
+							"status": "INTERNAL SERVER ERROR",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Werkzeug/3.1.3 Python/3.11.11"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 02 Jan 2025 11:31:51 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "216"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.\",\n    \"timestamp\": \"2025-01-02T11:31:51.053557+00:00\"\n}"
+						}
+					]
 				}
 			]
 		},
@@ -66,22 +359,158 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{url}}/services?page=1",
+							"raw": "{{url}}/services",
 							"host": [
 								"{{url}}"
 							],
 							"path": [
 								"services"
-							],
-							"query": [
-								{
-									"key": "page",
-									"value": "1"
-								}
 							]
 						}
 					},
-					"response": []
+					"response": [
+						{
+							"name": "200",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/services?page=1",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"services"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Werkzeug/3.1.3 Python/3.11.11"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 02 Jan 2025 11:32:17 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "961"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": [\n        {\n            \"detail\": \"/services/fc73eb8fc73e9/locations\",\n            \"service_id\": \"fc73eb8fc73e9\"\n        },\n        {\n            \"detail\": \"/services/fc73eb8fc73ea/locations\",\n            \"service_id\": \"fc73eb8fc73ea\"\n        },\n        {\n            \"detail\": \"/services/3486182348616/locations\",\n            \"service_id\": \"3486182348616\"\n        },\n        {\n            \"detail\": \"/services/3486182348617/locations\",\n            \"service_id\": \"3486182348617\"\n        },\n        {\n            \"detail\": \"/services/602df47602df2/locations\",\n            \"service_id\": \"602df47602df2\"\n        },\n        {\n            \"detail\": \"/services/602df47602df3/locations\",\n            \"service_id\": \"602df47602df3\"\n        },\n        {\n            \"detail\": \"/services/91fe67291fe65/locations\",\n            \"service_id\": \"91fe67291fe65\"\n        },\n        {\n            \"detail\": \"/services/91fe67291fe66/locations\",\n            \"service_id\": \"91fe67291fe66\"\n        },\n        {\n            \"detail\": \"/services/1c56a531c56a3/locations\",\n            \"service_id\": \"1c56a531c56a3\"\n        },\n        {\n            \"detail\": \"/services/1c56a531c56a4/locations\",\n            \"service_id\": \"1c56a531c56a4\"\n        }\n    ],\n    \"pagination\": {\n        \"current_page\": 1,\n        \"has_next\": true,\n        \"has_prev\": false,\n        \"next_page\": 2,\n        \"per_page\": 10,\n        \"prev_page\": null,\n        \"total_items\": 71,\n        \"total_pages\": 8\n    },\n    \"timestamp\": \"2025-01-02T11:32:17.696882+00:00\"\n}"
+						},
+						{
+							"name": "404",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/services?page=100",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"services"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "100"
+										}
+									]
+								}
+							},
+							"status": "NOT FOUND",
+							"code": 404,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Werkzeug/3.1.3 Python/3.11.11"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 02 Jan 2025 11:32:26 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "78"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Items not found!\",\n    \"timestamp\": \"2025-01-02T11:32:26.166194+00:00\"\n}"
+						},
+						{
+							"name": "500",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/services",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"services"
+									]
+								}
+							},
+							"status": "INTERNAL SERVER ERROR",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Werkzeug/3.1.3 Python/3.13.1"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 02 Jan 2025 11:37:06 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "216"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.\",\n    \"timestamp\": \"2025-01-02T11:37:06.923834+00:00\"\n}"
+						}
+					]
 				},
 				{
 					"name": "get-by-current-day",
@@ -99,7 +528,140 @@
 							]
 						}
 					},
-					"response": []
+					"response": [
+						{
+							"name": "200",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/services/day",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"services",
+										"day"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Werkzeug/3.1.3 Python/3.11.11"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 02 Jan 2025 11:32:45 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "736"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": [\n        {\n            \"detail\": \"/services/4899e814899e6/locations\",\n            \"service_id\": \"4899e814899e6\"\n        },\n        {\n            \"detail\": \"/services/d5d9d53d5d9d3/locations\",\n            \"service_id\": \"d5d9d53d5d9d3\"\n        },\n        {\n            \"detail\": \"/services/d5d9d53d5d9d4/locations\",\n            \"service_id\": \"d5d9d53d5d9d4\"\n        },\n        {\n            \"detail\": \"/services/f243f37f243f1/locations\",\n            \"service_id\": \"f243f37f243f1\"\n        },\n        {\n            \"detail\": \"/services/f243f37f243f2/locations\",\n            \"service_id\": \"f243f37f243f2\"\n        },\n        {\n            \"detail\": \"/services/014104b014102/locations\",\n            \"service_id\": \"014104b014102\"\n        },\n        {\n            \"detail\": \"/services/014104b014103/locations\",\n            \"service_id\": \"014104b014103\"\n        }\n    ],\n    \"pagination\": {\n        \"current_page\": 1,\n        \"has_next\": false,\n        \"has_prev\": false,\n        \"next_page\": null,\n        \"per_page\": 10,\n        \"prev_page\": null,\n        \"total_items\": 7,\n        \"total_pages\": 1\n    },\n    \"timestamp\": \"2025-01-02T11:32:45.294961+00:00\"\n}"
+						},
+						{
+							"name": "500",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/services/day",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"services",
+										"day"
+									]
+								}
+							},
+							"status": "INTERNAL SERVER ERROR",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Werkzeug/3.1.3 Python/3.13.1"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 02 Jan 2025 11:33:50 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "216"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.\",\n    \"timestamp\": \"2025-01-02T11:33:50.059731+00:00\"\n}"
+						},
+						{
+							"name": "404",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/services/days",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"services",
+										"days"
+									]
+								}
+							},
+							"status": "NOT FOUND",
+							"code": 404,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Werkzeug/3.1.3 Python/3.11.11"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 02 Jan 2025 11:37:30 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "182"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.\",\n    \"timestamp\": \"2025-01-02T11:37:30.663560+00:00\"\n}"
+						}
+					]
 				},
 				{
 					"name": "get-by-day",
@@ -118,7 +680,143 @@
 							]
 						}
 					},
-					"response": []
+					"response": [
+						{
+							"name": "500",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/services/day/monday",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"services",
+										"day",
+										"monday"
+									]
+								}
+							},
+							"status": "INTERNAL SERVER ERROR",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Werkzeug/3.1.3 Python/3.13.1"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 02 Jan 2025 11:34:02 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "216"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.\",\n    \"timestamp\": \"2025-01-02T11:34:02.941847+00:00\"\n}"
+						},
+						{
+							"name": "200",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/services/day/monday",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"services",
+										"day",
+										"monday"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Werkzeug/3.1.3 Python/3.11.11"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 02 Jan 2025 11:36:20 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "736"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": [\n        {\n            \"detail\": \"/services/4899e814899e6/locations\",\n            \"service_id\": \"4899e814899e6\"\n        },\n        {\n            \"detail\": \"/services/d5d9d53d5d9d3/locations\",\n            \"service_id\": \"d5d9d53d5d9d3\"\n        },\n        {\n            \"detail\": \"/services/d5d9d53d5d9d4/locations\",\n            \"service_id\": \"d5d9d53d5d9d4\"\n        },\n        {\n            \"detail\": \"/services/f243f37f243f1/locations\",\n            \"service_id\": \"f243f37f243f1\"\n        },\n        {\n            \"detail\": \"/services/f243f37f243f2/locations\",\n            \"service_id\": \"f243f37f243f2\"\n        },\n        {\n            \"detail\": \"/services/014104b014102/locations\",\n            \"service_id\": \"014104b014102\"\n        },\n        {\n            \"detail\": \"/services/014104b014103/locations\",\n            \"service_id\": \"014104b014103\"\n        }\n    ],\n    \"pagination\": {\n        \"current_page\": 1,\n        \"has_next\": false,\n        \"has_prev\": false,\n        \"next_page\": null,\n        \"per_page\": 10,\n        \"prev_page\": null,\n        \"total_items\": 7,\n        \"total_pages\": 1\n    },\n    \"timestamp\": \"2025-01-02T11:36:20.502457+00:00\"\n}"
+						},
+						{
+							"name": "404",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/services/day/mondays",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"services",
+										"day",
+										"mondays"
+									]
+								}
+							},
+							"status": "NOT FOUND",
+							"code": 404,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Werkzeug/3.1.3 Python/3.11.11"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 02 Jan 2025 11:36:30 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "175"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Please give a correct day of week: ('monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday')\",\n    \"timestamp\": \"2025-01-02T11:36:30.996698+00:00\"\n}"
+						}
+					]
 				},
 				{
 					"name": "get-locations-by-service-id",
@@ -137,7 +835,143 @@
 							]
 						}
 					},
-					"response": []
+					"response": [
+						{
+							"name": "500",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/services/fc73eb8fc73e9/locations",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"services",
+										"fc73eb8fc73e9",
+										"locations"
+									]
+								}
+							},
+							"status": "INTERNAL SERVER ERROR",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Werkzeug/3.1.3 Python/3.13.1"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 02 Jan 2025 11:34:22 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "216"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.\",\n    \"timestamp\": \"2025-01-02T11:34:22.233014+00:00\"\n}"
+						},
+						{
+							"name": "200",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/services/fc73eb8fc73e9/locations",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"services",
+										"fc73eb8fc73e9",
+										"locations"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Werkzeug/3.1.3 Python/3.11.11"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 02 Jan 2025 11:38:12 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "1005"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": [\n        {\n            \"lat\": 19.46731243795702,\n            \"lon\": -99.14093900739392,\n            \"service_id\": \"fc73eb8fc73e9\"\n        },\n        {\n            \"lat\": 19.46731243795702,\n            \"lon\": -99.14093900739392,\n            \"service_id\": \"fc73eb8fc73e9\"\n        },\n        {\n            \"lat\": 19.46731243795702,\n            \"lon\": -99.14093900739392,\n            \"service_id\": \"fc73eb8fc73e9\"\n        },\n        {\n            \"lat\": 19.46731243795702,\n            \"lon\": -99.14093900739392,\n            \"service_id\": \"fc73eb8fc73e9\"\n        },\n        {\n            \"lat\": 19.46731243795702,\n            \"lon\": -99.14093900739392,\n            \"service_id\": \"fc73eb8fc73e9\"\n        },\n        {\n            \"lat\": 19.46731243795702,\n            \"lon\": -99.14093900739392,\n            \"service_id\": \"fc73eb8fc73e9\"\n        },\n        {\n            \"lat\": 19.46731243795702,\n            \"lon\": -99.14093900739392,\n            \"service_id\": \"fc73eb8fc73e9\"\n        },\n        {\n            \"lat\": 19.46731243795702,\n            \"lon\": -99.14093900739392,\n            \"service_id\": \"fc73eb8fc73e9\"\n        },\n        {\n            \"lat\": 19.46731243795702,\n            \"lon\": -99.14093900739392,\n            \"service_id\": \"fc73eb8fc73e9\"\n        },\n        {\n            \"lat\": 19.46731243795702,\n            \"lon\": -99.14093900739392,\n            \"service_id\": \"fc73eb8fc73e9\"\n        }\n    ],\n    \"pagination\": {\n        \"current_page\": 1,\n        \"has_next\": true,\n        \"has_prev\": false,\n        \"next_page\": 2,\n        \"per_page\": 10,\n        \"prev_page\": null,\n        \"total_items\": 8610,\n        \"total_pages\": 861\n    },\n    \"timestamp\": \"2025-01-02T11:38:12.905336+00:00\"\n}"
+						},
+						{
+							"name": "404",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/services/fc73eb8fc7s3e9/locations",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"services",
+										"fc73eb8fc7s3e9",
+										"locations"
+									]
+								}
+							},
+							"status": "NOT FOUND",
+							"code": 404,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Werkzeug/3.1.3 Python/3.11.11"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 02 Jan 2025 11:38:21 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "102"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Information not found 'fc73eb8fc7s3e9'.!\",\n    \"timestamp\": \"2025-01-02T11:38:21.266630+00:00\"\n}"
+						}
+					]
 				}
 			]
 		},
@@ -150,7 +984,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{url}}/town-halls?per_page=30",
+							"raw": "{{url}}/town-halls?page=1",
 							"host": [
 								"{{url}}"
 							],
@@ -159,13 +993,161 @@
 							],
 							"query": [
 								{
-									"key": "per_page",
-									"value": "30"
+									"key": "page",
+									"value": "1"
 								}
 							]
 						}
 					},
-					"response": []
+					"response": [
+						{
+							"name": "500",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/town-halls?per_page=30",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"town-halls"
+									],
+									"query": [
+										{
+											"key": "per_page",
+											"value": "30"
+										}
+									]
+								}
+							},
+							"status": "INTERNAL SERVER ERROR",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Werkzeug/3.1.3 Python/3.13.1"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 02 Jan 2025 11:34:29 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "216"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.\",\n    \"timestamp\": \"2025-01-02T11:34:28.999942+00:00\"\n}"
+						},
+						{
+							"name": "200",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/town-halls?per_page=30",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"town-halls"
+									],
+									"query": [
+										{
+											"key": "per_page",
+											"value": "30"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Werkzeug/3.1.3 Python/3.11.11"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 02 Jan 2025 11:38:44 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "2394"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": [\n        {\n            \"name\": \"Álvaro Obregón\",\n            \"slug\": \"alvaro-obregon\",\n            \"stops\": \"/town-halls/stops/alvaro-obregon\",\n            \"uuid\": \"397cac70-f22c-41e8-b0e3-c476753d12f9\"\n        },\n        {\n            \"name\": \"Azcapotzalco\",\n            \"slug\": \"azcapotzalco\",\n            \"stops\": \"/town-halls/stops/azcapotzalco\",\n            \"uuid\": \"0db33f7c-f42c-4e21-a7a5-fd3b27e36281\"\n        },\n        {\n            \"name\": \"Benito Juárez\",\n            \"slug\": \"benito-juarez\",\n            \"stops\": \"/town-halls/stops/benito-juarez\",\n            \"uuid\": \"08e35e8b-697a-4f1e-8974-330bd2deefe4\"\n        },\n        {\n            \"name\": \"Coyoacán\",\n            \"slug\": \"coyoacan\",\n            \"stops\": \"/town-halls/stops/coyoacan\",\n            \"uuid\": \"92ba33b0-360d-4cf9-bf56-920f8aff7a19\"\n        },\n        {\n            \"name\": \"Cuajimalpa de Morelos\",\n            \"slug\": \"cuajimalpa-de-morelos\",\n            \"stops\": \"/town-halls/stops/cuajimalpa-de-morelos\",\n            \"uuid\": \"21488600-bc19-45ac-ae43-35e14c58c461\"\n        },\n        {\n            \"name\": \"Cuauhtémoc\",\n            \"slug\": \"cuauhtemoc\",\n            \"stops\": \"/town-halls/stops/cuauhtemoc\",\n            \"uuid\": \"352c21d7-2112-4416-953e-2d0dc429fa86\"\n        },\n        {\n            \"name\": \"Gustavo A. Madero\",\n            \"slug\": \"gustavo-a-madero\",\n            \"stops\": \"/town-halls/stops/gustavo-a-madero\",\n            \"uuid\": \"ae14e1f7-2d5f-46d8-8394-d97ac7487065\"\n        },\n        {\n            \"name\": \"Iztacalco\",\n            \"slug\": \"iztacalco\",\n            \"stops\": \"/town-halls/stops/iztacalco\",\n            \"uuid\": \"3c8712ca-ff71-4dbc-bd89-265be7eef38d\"\n        },\n        {\n            \"name\": \"Iztapalapa\",\n            \"slug\": \"iztapalapa\",\n            \"stops\": \"/town-halls/stops/iztapalapa\",\n            \"uuid\": \"7d4b2fa8-ed95-482a-a93c-ab29aaa77d37\"\n        },\n        {\n            \"name\": \"La Magdalena Contreras\",\n            \"slug\": \"la-magdalena-contreras\",\n            \"stops\": \"/town-halls/stops/la-magdalena-contreras\",\n            \"uuid\": \"a1b7e745-9a17-4fe0-9d24-6e324e3c9c3e\"\n        },\n        {\n            \"name\": \"Miguel Hidalgo\",\n            \"slug\": \"miguel-hidalgo\",\n            \"stops\": \"/town-halls/stops/miguel-hidalgo\",\n            \"uuid\": \"27d78cd5-7f08-492b-9247-2345e8423388\"\n        },\n        {\n            \"name\": \"Milpa Alta\",\n            \"slug\": \"milpa-alta\",\n            \"stops\": \"/town-halls/stops/milpa-alta\",\n            \"uuid\": \"9cd3dd82-077d-4b53-aba1-39c4dba6864b\"\n        },\n        {\n            \"name\": \"Tlalpan\",\n            \"slug\": \"tlalpan\",\n            \"stops\": \"/town-halls/stops/tlalpan\",\n            \"uuid\": \"ca75add3-058e-435b-8cad-421bd0839748\"\n        },\n        {\n            \"name\": \"Tláhuac\",\n            \"slug\": \"tlahuac\",\n            \"stops\": \"/town-halls/stops/tlahuac\",\n            \"uuid\": \"9a31daae-d764-4905-a68f-516241eb9776\"\n        },\n        {\n            \"name\": \"Venustiano Carranza\",\n            \"slug\": \"venustiano-carranza\",\n            \"stops\": \"/town-halls/stops/venustiano-carranza\",\n            \"uuid\": \"00ce5383-a32d-41dd-b24a-4e625864d2e9\"\n        },\n        {\n            \"name\": \"Xochimilco\",\n            \"slug\": \"xochimilco\",\n            \"stops\": \"/town-halls/stops/xochimilco\",\n            \"uuid\": \"77a8cd70-e3a6-40d6-85f1-ef3c4dda327a\"\n        }\n    ],\n    \"pagination\": {\n        \"current_page\": 1,\n        \"has_next\": false,\n        \"has_prev\": false,\n        \"next_page\": null,\n        \"per_page\": 30,\n        \"prev_page\": null,\n        \"total_items\": 16,\n        \"total_pages\": 1\n    },\n    \"timestamp\": \"2025-01-02T11:38:44.821457+00:00\"\n}"
+						},
+						{
+							"name": "404",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/town-halls?page=10",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"town-halls"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "10"
+										}
+									]
+								}
+							},
+							"status": "NOT FOUND",
+							"code": 404,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Werkzeug/3.1.3 Python/3.11.11"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 02 Jan 2025 11:39:06 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "78"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"Items not found!\",\n    \"timestamp\": \"2025-01-02T11:39:06.185251+00:00\"\n}"
+						}
+					]
 				},
 				{
 					"name": "stops-by-town-hall",
@@ -190,7 +1172,161 @@
 							]
 						}
 					},
-					"response": []
+					"response": [
+						{
+							"name": "500",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/town-halls/stops/benito-juarez?page=1",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"town-halls",
+										"stops",
+										"benito-juarez"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"status": "INTERNAL SERVER ERROR",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Werkzeug/3.1.3 Python/3.13.1"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 02 Jan 2025 11:34:33 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "216"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.\",\n    \"timestamp\": \"2025-01-02T11:34:33.950531+00:00\"\n}"
+						},
+						{
+							"name": "200",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/town-halls/stops/benito-juarez?page=1",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"town-halls",
+										"stops",
+										"benito-juarez"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Werkzeug/3.1.3 Python/3.11.11"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 02 Jan 2025 11:39:22 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "1445"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": [\n        {\n            \"id\": \"fa0794\",\n            \"lat\": 19.39776384658177,\n            \"lon\": -99.1711536312679,\n            \"name\": \"La Piedad\",\n            \"town_hall\": \"Benito Juárez\"\n        },\n        {\n            \"id\": \"fa0795\",\n            \"lat\": 19.39321394751125,\n            \"lon\": -99.172701367973,\n            \"name\": \"Polifórum\",\n            \"town_hall\": \"Benito Juárez\"\n        },\n        {\n            \"id\": \"fa0796\",\n            \"lat\": 19.3896222909298,\n            \"lon\": -99.1737990029131,\n            \"name\": \"Nápoles\",\n            \"town_hall\": \"Benito Juárez\"\n        },\n        {\n            \"id\": \"fa0798\",\n            \"lat\": 19.38571354863733,\n            \"lon\": -99.17506613534312,\n            \"name\": \"Colonia del Valle\",\n            \"town_hall\": \"Benito Juárez\"\n        },\n        {\n            \"id\": \"fa079a\",\n            \"lat\": 19.38231253098864,\n            \"lon\": -99.17616458743342,\n            \"name\": \"Ciudad de los Deportes\",\n            \"town_hall\": \"Benito Juárez\"\n        },\n        {\n            \"id\": \"fa079b\",\n            \"lat\": 19.37946791221312,\n            \"lon\": -99.17708587836776,\n            \"name\": \"Parque Hundido\",\n            \"town_hall\": \"Benito Juárez\"\n        },\n        {\n            \"id\": \"fa079d\",\n            \"lat\": 19.37417510761703,\n            \"lon\": -99.17880853652244,\n            \"name\": \"Félix Cuevas Norte\",\n            \"town_hall\": \"Benito Juárez\"\n        },\n        {\n            \"id\": \"fa079e\",\n            \"lat\": 19.3689094354125,\n            \"lon\": -99.18051144595016,\n            \"name\": \"Río Churubusco\",\n            \"town_hall\": \"Benito Juárez\"\n        },\n        {\n            \"id\": \"fa07a0\",\n            \"lat\": 19.36490532773127,\n            \"lon\": -99.18180902259564,\n            \"name\": \"Teatro de los Insurgentes\",\n            \"town_hall\": \"Benito Juárez\"\n        },\n        {\n            \"id\": \"f8577d\",\n            \"lat\": 19.39580386172431,\n            \"lon\": -99.15484310065293,\n            \"name\": \"Etiopía L2\",\n            \"town_hall\": \"Benito Juárez\"\n        }\n    ],\n    \"pagination\": {\n        \"current_page\": 1,\n        \"has_next\": true,\n        \"has_prev\": false,\n        \"next_page\": 2,\n        \"per_page\": 10,\n        \"prev_page\": null,\n        \"total_items\": 24,\n        \"total_pages\": 3\n    },\n    \"timestamp\": \"2025-01-02T11:39:22.470760+00:00\"\n}"
+						},
+						{
+							"name": "404",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/town-halls/stops/benito-juarez?page=10",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"town-halls",
+										"stops",
+										"benito-juarez"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "10"
+										}
+									]
+								}
+							},
+							"status": "NOT FOUND",
+							"code": 404,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Server",
+									"value": "Werkzeug/3.1.3 Python/3.11.11"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 02 Jan 2025 11:39:31 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Content-Length",
+									"value": "90"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"No stops found in this area!\",\n    \"timestamp\": \"2025-01-02T11:39:31.564690+00:00\"\n}"
+						}
+					]
 				}
 			]
 		},
@@ -209,7 +1345,137 @@
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"name": "404",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/health-checks",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"health-checks"
+							]
+						}
+					},
+					"status": "NOT FOUND",
+					"code": 404,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.1.3 Python/3.13.1"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 02 Jan 2025 11:34:42 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "182"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.\",\n    \"timestamp\": \"2025-01-02T11:34:42.782762+00:00\"\n}"
+				},
+				{
+					"name": "200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/health-check",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"health-check"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.1.3 Python/3.13.1"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 02 Jan 2025 11:34:51 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "69"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"healthy\",\n    \"timestamp\": \"2025-01-02T11:34:51.939612+00:00\"\n}"
+				},
+				{
+					"name": "500",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/health-check",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"health-check"
+							]
+						}
+					},
+					"status": "INTERNAL SERVER ERROR",
+					"code": 500,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.1.3 Python/3.13.1"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 02 Jan 2025 11:35:48 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "216"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.\",\n    \"timestamp\": \"2025-01-02T11:35:48.973844+00:00\"\n}"
+				}
+			]
 		},
 		{
 			"name": "validation",
